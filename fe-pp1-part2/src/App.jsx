@@ -1,5 +1,7 @@
 import "./App.css";
 import CreditCard from "./CreditCard";
+import BoxColor  from "./BoxColor";
+import Greetings from "./Greetings";
 
 function App() {
   return (
@@ -37,7 +39,14 @@ function App() {
       bgColor="#ddbb55"
       color="white" 
     />
-    
+    <BoxColor r={255} g={0} b={0} />
+
+    <BoxColor r={128} g={255} b={0} />
+
+    <Greetings lang="de">Ludwig</Greetings>
+
+    <Greetings lang="fr">François</Greetings>
+
   </div>
   );
 }
