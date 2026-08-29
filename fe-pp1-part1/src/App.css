@@ -9,11 +9,16 @@
 .card p {
     font-size: 15px;
     margin-left: 180px;
-    
 }
 
 .img {
    height: 98%;
    padding: 2px;
    float: left;
+}
+
+.Random{
+    border: 2px solid #312929;
+    margin: 5px;
+    padding: 5px;
 }
